@@ -1,4 +1,5 @@
-﻿namespace ModernVPN;
+﻿namespace ModernVPN.MVVM.View;
+
 /// <summary>
 /// Interaction logic for MainWindow.xaml
 /// </summary>

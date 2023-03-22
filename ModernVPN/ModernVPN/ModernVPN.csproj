@@ -7,4 +7,19 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Resources\bg.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Remove="Themes\TitlebarButton.Nord.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\bg.png" />
+    <Resource Include="Themes\TitlebarButton.Nord.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Resource>
+  </ItemGroup>
+
 </Project>
